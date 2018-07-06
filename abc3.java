@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 import java.awt.*;
-public class abc3 extends JFrame implements MouseListener,KeyListener
+public class tic_tac_toe extends JFrame implements MouseListener,KeyListener
 {
 JFrame j=new JFrame("How to Play?");
 JFrame playerFrame=new JFrame("Play Tic-Tac-Toe");;
@@ -26,7 +26,7 @@ JButton b,q, p;
 int alternate=0;
 int countA = 0; 
 // constructor to set initial values.
-abc3()
+tic_tac_toe()
 {
 j.setSize(400,400); // creates a panel for the tic tac toe game
 //j.setLayout(new FlowLayout(FlowLayout.RIGHT, 5, 5));
@@ -177,7 +177,7 @@ return false;
 }
 // program starts from here.
 public static void main(String[] args) {
-	new abc3();
+	new tic_tac_toe();
 }
 // after main. this will be called
 @Override
